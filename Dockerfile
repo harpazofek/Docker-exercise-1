@@ -3,9 +3,10 @@ WORKDIR /myapp
 COPY . .
 # RUN pip install
 ENV NAME=ofek YEAR=1993
-CMD ["python3","date.py","code.py" ]
+CMD ["python3","date.py","bday.py" ]
 
-# For say hello and show the age use this docker file or add this cmd to the main Dockerfile
+# For say hello and show the age use this docker file or add this cmd to the main Dockerfile#
+# 
 # FROM python:3.10.11-alpine
 # WORKDIR /appbday
 # COPY . .
